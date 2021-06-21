@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(to right, #ffab0f, #247afd);
+}
+
+.timer {
+  margin: auto;
+  width: 500px;
+  height: 200px;
+  background-color: azure;
+  margin-top: 3rem;
+}
+
+h1 {
+  background: rgba(0, 0, 0, 1);
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.countdown {
+  padding: 1rem;
+}
+
+.label-parent,
+.form {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 230px;
+}
+
+.label,
+.time {
+  width: 4rem;
+}
+
+.label {
+  margin: 5px 10px 5px 3px;
+  font-weight: 600;
+}
+
+.time {
+  border: none;
+  outline: none;
+  font-size: 25px;
+}
+
+.semicolon {
+  font-size: 25px;
+}
+
+.buttons {
+  padding: 1rem;
+}
